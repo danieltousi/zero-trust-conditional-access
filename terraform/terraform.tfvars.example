@@ -1,0 +1,24 @@
+# Example terraform.tfvars
+# Copy this file to terraform.tfvars and fill in your values
+# Never commit terraform.tfvars to source control
+
+# Start in report-only mode, switch to "enabled" after validating in logs
+policy_state = "enabledForReportingButNotEnforced"
+
+# Break-glass accounts - excluded from ALL policies
+break_glass_upns = [
+  "breakglass1@contoso.com",
+  "breakglass2@contoso.com"
+]
+
+# Corporate office IP ranges
+trusted_ip_ranges = [
+  "203.0.113.0/24",
+  "198.51.100.0/24"
+]
+
+# Service account groups excluded from MFA
+mfa_exclusion_group_ids = []
+
+# BYOD user group
+byod_group_ids = []
