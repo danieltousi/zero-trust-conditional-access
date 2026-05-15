@@ -1,4 +1,6 @@
 # Zero Trust Conditional Access Blueprint
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Azure](https://img.shields.io/badge/Azure-Production--Grade-0078D4?logo=microsoftazure)
 
 A production-ready Conditional Access policy matrix for Microsoft Entra ID, deployed and managed entirely through Terraform. Implements a comprehensive Zero Trust identity perimeter aligned to **Microsoft Zero Trust principles**, **Australian Essential Eight Maturity Level 2**, and **CIS Microsoft 365 Foundations Benchmark**.
 
